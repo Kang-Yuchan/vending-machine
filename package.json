@@ -1,14 +1,36 @@
 {
   "name": "vending-machine",
+  "version": "1.0.0",
+  "author": "Kang-Yuchan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kang-Yuchan/vending-machine.git"
+  },
+  "main": "postcss.config.js",
   "module": "index.ts",
-  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tsc": "^2.0.4"
+  },
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/node": "^22.4.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Kang-Yuchan/vending-machine/issues"
+  },
+  "description": "To install dependencies:",
+  "homepage": "https://github.com/Kang-Yuchan/vending-machine#readme",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "type": "module"
 }
