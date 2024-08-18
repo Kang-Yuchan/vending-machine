@@ -14,3 +14,12 @@ type AnimalData = {
   views: number;
   comments: number;
 };
+
+type AnimationType = "left" | "right";
+
+type Config = {
+  sliderCon: HTMLElement | null;
+  logoCon: HTMLElement | null;
+  infoCon: HTMLElement | null;
+  btnCon: HTMLElement | null;
+};
